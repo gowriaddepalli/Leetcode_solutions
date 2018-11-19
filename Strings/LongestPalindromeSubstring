@@ -1,0 +1,86 @@
+/*
+
+  Problem: Write a function that will return the longest substring of the input string that is a palindrome.
+Input: String
+Output: String
+Palindrome definition: reads the same backwards and forwards
+
+Input => Output Examples:
+  racecar -> racecar
+  abacabde -> bacab
+  abccdefg => cc
+*/
+
+import java.io.*;
+import java.util.*;
+
+/*
+ * To execute Java, please define "static void main" on a class
+ * named Solution.
+ *
+ * If you need more classes, simply define them inline.
+ */
+
+class Solution {
+  
+   Boolean isPalindrome(String sbst)
+   {
+     // Reversing a string.
+     StringBuilder reversesbst = new StringBuilder();
+     reversesbst.append(sbst);
+     reversesbst = reversesbst.reverse();
+     String revsbst = reversesbst.toString();
+     System.out.println(revsbst);
+     if(sbst.equals(revsbst))
+     {
+       //System.out.println(" true");
+       return true;
+     }
+      
+     return false;
+   }
+  
+  String getPalindromeString(String pal)
+  {
+    String palindrome = pal;
+    return palindrome;
+  }
+  
+  public static void main(String[] args) {
+    
+    // Read the Strings.
+     
+     Solution sln = new Solution();
+     String palindrome = sln.getPalindromeString("abccdefg");
+     int n = palindrome.length();
+     //System.out.println(n);
+    
+   //Generate Substrings of the given string.
+     int maxLength = 1;
+     int leng = 0;
+     String LongestSubstringPalindrome = "";
+    
+     //System.out.println(palindrome.substring(1, 5));
+      
+     for(int i =0 ; i<n;i++){
+       for(int j =n; j>=0; j--){
+         if(j>i){
+     String rev = palindrome.substring(i, j); 
+    
+   // System.out.println("************");    
+   // System.out.println(rev);
+     if(sln.isPalindrome(rev)){
+       leng = rev.length();
+       if(leng>maxLength){
+         maxLength = leng;
+         LongestSubstringPalindrome = rev;
+       }
+    }
+         }
+  }
+}
+    
+    System.out.println(" The Longest Substring: " + LongestSubstringPalindrome);
+    System.out.println(" The Longest Substring length: " + LongestSubstringPalindrome.length());
+  }
+}
