@@ -1,0 +1,7 @@
+This contains the techniques of backtracking to solve sums that involve similar principle which uses permutations and combinations
+of all the elements.
+
+1) Generate all subsets
+2) combination Sum
+3) palindrome partitioning.
+
