@@ -9,9 +9,10 @@ class Solution {
                 hm.put(w,1);
             }   
         }
-        // sorts in ascending order
+        // sorts in ascending order.
         PriorityQueue<String> heap = new PriorityQueue<String>((w1,w2) -> hm.get(w1).equals(hm.get(w2)) ? w2.compareTo(w1) : hm.get(w1)-hm.get(w2));
        
+        // removes least frequent item.
         for(String w: hm.keySet()) {
             heap.offer(w);
             if(heap.size()>k){
@@ -19,6 +20,7 @@ class Solution {
             }
         }
         
+        // adds elements in ascending order.
         List<String> ans = new ArrayList();
         while( !heap.isEmpty()){
             ans.add(heap.poll());
