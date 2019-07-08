@@ -14,4 +14,50 @@ Possible Rounds:
 
 Goldman Sachs:
 
+.) Reverse a string.
+.) rand7/rand5
+.) Level by Level output Binary Tree
+.) Stack with two Queues
+.) subset sum
+.) 3Sum
+.) reverse a linkedList
+.) hour and minute hand -> calculate angle between hour/minute hand
+.) design instant messaging software
+.) depth of binary tree
+.) insert element in sorted array
+.) Cubic root of number -> 3 decimal places
+.) Netwons method to approximate root
+.) remove node from a single linkedlist when only given the pointer to the node
+.) string searching algorithm
+.) postorder/preorder/inorder Traversal Algo BT/BST
+.) what happens if you do not have a hashcode method in an object
+.) single/double/circular linkedlist
+.) design car class
+.) hashtable implemented
+.) parking garage design implementation
+.) sorting algo
+.) design a backend as a service that would expose data as an API
+.) no. of steps.
+.) sorted array, rotated K times, find k
+.) max sum from leaf to leaf
+.) binary search
+.) Anagram
+.) Unique substring of length K
+.) Look through array to find pairs that sum upto K
+
+
+
+
+
+-> C# multithreading
+-> Boxing
+-> Garbage Collection
+-> time complexities of DS
+-> Lambda Calculus
+-> java/ Linux
+-> stored procedures in SQL
+-> multithread and internet protocols
+-> java internals
+
+
 Bloomberg:
