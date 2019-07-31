@@ -8,7 +8,7 @@ Every time when you poll out the root(Top Element in Heap), you need to know the
 
 
 
-ublic class Solution {
+public class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         int n = matrix.length;
         PriorityQueue<Tuple> pq = new PriorityQueue<Tuple>();
