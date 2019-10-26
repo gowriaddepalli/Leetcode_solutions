@@ -1,3 +1,1 @@
-## Questions - Solutions
-
-### Top 100 Leetcode Solutions
+## Questions - Solutions - Top 100 Leetcode Solutions
