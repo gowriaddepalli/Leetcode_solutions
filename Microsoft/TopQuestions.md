@@ -3,3 +3,10 @@
 Algorithm:
 
 1.
+
+
+## Longest Increasing Subsequence:
+
+Algorithm:
+
+1.
