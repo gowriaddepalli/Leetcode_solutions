@@ -23,3 +23,9 @@ class Solution {
         return nums[nums.length/2];
     }
 }
+
+
+Edge Cases to check:
+ 
+ - whether their is existing of majority element.
+ - array is sorted or not.
