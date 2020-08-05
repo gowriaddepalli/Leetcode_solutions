@@ -29,6 +29,86 @@ when you get these,
  
  
  
+ class ValidParanthesis{
+ 
+ public boolean isValidParanthesis(String s) {
+ 
+ if(s.equals(""))
+ {
+    return false;
+ }
+ 
+ 
+ Stack<Character> st = new Stack<Character>();
+   
+ for(int i=0; i<s.length(); i++)
+ {
+                            
+    Switch(s.charAt(i))
+    {
+      char ']':
+      if(st.isEmpty()){
+      return false;
+      }
+      if(st.peek("["){
+      st.pop();
+      }
+      else{
+      return false;
+      }
+      break;
+      
+      char '}':
+      if(st.isEmpty()){
+      return false;
+      }
+      if(st.peek("}"){
+      st.pop();
+      }
+      else{
+      return false;
+      }
+      break;
+       
+      char ')':
+      if(st.isEmpty()){
+      return false;
+      }
+      if(st.peek("("){
+      st.pop();
+      }
+      else{
+      return false;
+      }
+      break;
+      
+      default:
+      st.push(s.charAt(i))
+    
+    }
+                            
+ if(st.isEmpty())
+ {
+     return true;
+ }
+ 
+ return false;
+ 
+ }
+ 
+ 
+ public static void main(String[] args)
+ 
+ {
+  return isValidParanthesis("{{}}");
+ 
+ }
+ 
+ 
+ }
+ 
+ 
+ 
  
   
  
