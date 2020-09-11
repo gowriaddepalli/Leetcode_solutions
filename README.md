@@ -7,6 +7,9 @@ https://github.com/donnemartin/system-design-primer
 
 ## YouTube Links:
 
+- https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw
+- https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g
+
 
 ## Other Links:
 
