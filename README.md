@@ -15,3 +15,7 @@ https://github.com/donnemartin/system-design-primer
 
 - https://happygirlzt.com/codelist.html
 - https://leetfree.com/
+
+## Imp tricks- edge cases
+
+- https://www.linkedin.com/posts/kanahaiya-gupta_datastructures-algorithms-codinginterview-activity-6743828994572992512-HNjz/
