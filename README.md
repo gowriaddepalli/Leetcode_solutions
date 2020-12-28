@@ -19,3 +19,4 @@ https://github.com/donnemartin/system-design-primer
 ## Imp tricks- edge cases
 
 - https://www.linkedin.com/posts/kanahaiya-gupta_datastructures-algorithms-codinginterview-activity-6743828994572992512-HNjz/
+- https://www.youtube.com/watch?app=desktop&v=TsDJN0KjNDY&feature=youtu.be
