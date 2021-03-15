@@ -1,6 +1,6 @@
 class Solution {
     public int largestAltitude(int[] gain) {
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         int n = gain.length;
         int alt = 0;
         
@@ -10,10 +10,8 @@ class Solution {
                 max = alt;
             }
         }
-        System.out.println(max);
         
-        //return ((max>gain[0]) ? (max>0)? max :0 :(gain[0]>0)? gain[0] :0);
-        return (max>0? max: 0);
+        return max;
         
     }
 }
