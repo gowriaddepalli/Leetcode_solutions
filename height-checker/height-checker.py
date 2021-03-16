@@ -1,4 +1,3 @@
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
-        return sum(a != b for a,b in zip(heights, sorted(heights)))
-        
+        return len(heights) - sum([(x == y) for x,y in zip(heights, sorted(heights))])
