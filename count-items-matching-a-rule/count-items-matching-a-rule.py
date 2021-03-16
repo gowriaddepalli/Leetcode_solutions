@@ -17,3 +17,16 @@ class Solution:
         return count
             
         
+        
+## Better Solution:
+
+ class Solution:
+    def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
+        # Nice way to reduce space complexity, reduce the if else to number.
+        id = 1*(ruleKey=="color") + 2*(ruleKey=="name")
+        c=0
+        for it in items:
+            if it[id]==ruleValue:
+                c+=1
+        return c
+        
