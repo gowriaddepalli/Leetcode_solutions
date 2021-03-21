@@ -25,3 +25,6 @@
 	<li><code>-10<sup>9</sup>&nbsp;&lt;= target&nbsp;&lt;= 10<sup>9</sup></code></li>
 </ul>
 </div>
+
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/717306/Python3-solution-with-detailed-explanation
