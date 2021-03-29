@@ -16,6 +16,17 @@
 - DP
 - BFS
 - DFS
+- Binary Search
+
+
+#### High Level System Design
+
+- Gaurav Sen/ Grokking System Design
+
+
+#### Low Level System Design
+
+- Design
 
 
 #### Language fundamentals:
