@@ -3,16 +3,10 @@ class Solution {
         int sum =0;
         int n = mat.length;
         
-        for(int i=0; i<mat.length; i++){
-            for(int j=0; j<mat[0].length; j++){
-                if(i==j){
-                    sum += mat[i][j];
-                }
-                else if(i+j == n-1){
-                    sum += mat[i][j];
-                }
-            }
+        for(int i=0; i<n; i++){
+            sum += mat[i][i];
+            sum += mat[i][n-1-i];
         }
-       return sum; 
+       return n%2 == 0 ? sum : sum - mat[n/2][n/2]; 
     }
 }
