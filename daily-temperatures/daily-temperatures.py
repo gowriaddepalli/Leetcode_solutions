@@ -27,9 +27,9 @@ class Solution:
             # Handle the case where we remove elements from stack(stack is not empty and the current element is ):
             while stack and T[i]>= T[stack[-1]]:
                 stack.pop()
-            if stack:  # Handle the case to get the index
-                return_value[i] = stack[-1] - i # Subtract the difference
-            stack.append(i)    # Irrespective in every iteration add the element to the stack
+            if stack:  # Handle the case to get the index and stack not empty.
+                return_value[i] = stack[-1] - i # Subtract the difference from the top.
+            stack.append(i)    # Irrespective in every iteration add the index of the element to the stack.
         return return_value
         
         
